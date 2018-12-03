@@ -1,0 +1,22 @@
+#myGui{
+    background: gold;
+}
+#windowsBtn{
+    height: 24px;
+    background: gold;
+}
+WindowStatusButton {
+    background-color: rgba(255, 255, 255, 0);
+    color: black;
+    border: 0px;
+    font: 10pt;
+    height: 28px;
+}
+WindowStatusButton#MinButton:hover,
+WindowStatusButton#SwitchBtn:hover {
+    background-color: #D0D0D1;
+}
+WindowStatusButton#CloseButton:hover {
+    background-color: #D32424;
+    color: white;
+}
